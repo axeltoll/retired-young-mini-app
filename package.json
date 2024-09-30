@@ -10,5 +10,14 @@
   "license": "ISC",
   "dependencies": {
     "vite": "^4.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axeltoll/retired-young-mini-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/axeltoll/retired-young-mini-app/issues"
+  },
+  "homepage": "https://github.com/axeltoll/retired-young-mini-app#readme"
 }
