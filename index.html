@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Mini App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <div id="welcome-screen">
+            <h1>Welcome to the Retired Young Revolution!</h1>
+            <button id="get-started-btn">Get Started</button>
+        </div>
+
+        <div id="form-screen" style="display: none;">
+            <h2>Personal Details</h2>
+            <form id="details-form">
+                <input type="text" id="full-name" placeholder="Enter your Full Name" required>
+                <input type="text" id="jifu-id" placeholder="Enter your Jifu ID" required>
+                <input type="email" id="email" placeholder="Enter your Email" required>
+                <input type="tel" id="phone-number" placeholder="Enter your Phone Number + country code" required>
+                <button type="submit">Next Step</button>
+            </form>
+        </div>
+
+        <div id="next-steps" style="display: none;">
+            <h2>Get connected with your educators!</h2>
+            <a href="https://apps.apple.com/au/app/jifu-connect/id6477942110">JIFU Connect App</a><br>
+            <a href="https://apps.apple.com/us/app/jifu-member/id6477579193">JIFU Member</a><br>
+            <button id="next-steps-btn">Next Step</button>
+        </div>
+
+        <div id="final-screen" style="display: none;">
+            <h2>Download MetaTrader 5</h2>
+            <a href="https://apps.apple.com/us/app/metatrader-5/id413251709">MetaTrader 5</a><br>
+            <button id="finish-btn">Finish</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
